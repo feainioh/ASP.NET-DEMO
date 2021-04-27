@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.31025.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asp.NET Demo", "Asp.NET Demo\Asp.NET Demo.csproj", "{699A3771-3B9B-47BD-A760-72E2A1B7065A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{B3F4BF99-FAC0-4750-9342-F361BDD21368}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{ABAAB559-79CB-428D-AA9A-53E423BB0621}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Asp.NET Model", "Asp.NET Model\Asp.NET Model.csproj", "{54BED780-26CB-47DA-B8A0-8A49295D371A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,10 @@ Global
 		{699A3771-3B9B-47BD-A760-72E2A1B7065A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{699A3771-3B9B-47BD-A760-72E2A1B7065A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{699A3771-3B9B-47BD-A760-72E2A1B7065A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54BED780-26CB-47DA-B8A0-8A49295D371A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54BED780-26CB-47DA-B8A0-8A49295D371A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54BED780-26CB-47DA-B8A0-8A49295D371A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54BED780-26CB-47DA-B8A0-8A49295D371A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
